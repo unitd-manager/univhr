@@ -1,19 +1,9 @@
-import axios from 'axios';
 
-const { hostname } = window.location;
-
-let baseURL;
-
-if (hostname === 'hrdemo.unitdtechnologies.com') {
-  baseURL = 'http://192.64.114.83:2029';
-} else {
-  baseURL = 'http://localhost:2029';
-}
-
-console.log('Selected Base URL:', baseURL);
+import axios from 'axios'
 
 const api = axios.create({
-  baseURL,
+baseURL: 'https://univhr.unitdtechnologies.com:3005',
+// baseURL: 'http://localhost:5009'
 });
 
-export default api;
+export default api

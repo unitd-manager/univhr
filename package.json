@@ -141,7 +141,7 @@
     "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "ftp-deploy --server 43.228.126.245 --username erpdemo_unitdtechnologies --password \"GtaxdCdj2Bmj5Rh7\""
+    "deploy": "ftp-deploy --server 66.29.154.85 --username univhr_unitdtechnologies_com --password \"a53588fa67af47\""
   },
   "eslintConfig": {
     "extends": [
