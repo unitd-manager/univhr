@@ -147,7 +147,7 @@ console.log('arabicsetting',arabicsetting)
 //     });
 // };
 
-const  showmultiSite = '1'
+const  showmultiSite = '0'
 
 console.log('showmultiSiteheader',showmultiSite)
 useEffect(() => {

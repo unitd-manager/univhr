@@ -28,7 +28,7 @@ const LoginFormik = ({ setToken }) => {
 
       console.log('showMultiSites',showMultiSites)
 
-      const showMultiSite = '1'
+      const showMultiSite = '0'
       console.log('showMultiSite',showMultiSite)
       console.log('userShowsiteid',user.site_id)
       
