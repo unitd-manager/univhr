@@ -1,29 +1,29 @@
 
-// import axios from 'axios'
-
-// const api = axios.create({
-// baseURL: 'https://univhr.unitdtechnologies.com:3005',
-// // baseURL: 'http://localhost:5009'
-// });
-
-// export default api
-
-import axios from 'axios';
-
-const { hostname } = window.location;
-
-let baseURL;
-
-if (hostname === 'univhr.unitdtechnologies.com') {
-  baseURL = 'http://192.64.114.83:3005';
-} else {
-  baseURL = 'http://localhost:3005';
-}
-
-console.log('Selected Base URL:', baseURL);
+import axios from 'axios'
 
 const api = axios.create({
-  baseURL,
+baseURL: 'https://univhr.unitdtechnologies.com:3005',
+// baseURL: 'http://localhost:5009'
 });
 
-export default api;
+export default api
+
+// import axios from 'axios';
+
+// const { hostname } = window.location;
+
+// let baseURL;
+
+// if (hostname === 'univhr.unitdtechnologies.com') {
+//   baseURL = 'http://66.29.154.85:3005';
+// } else {
+//   baseURL = 'http://localhost:3005';
+// }
+
+// console.log('Selected Base URL:', baseURL);
+
+// const api = axios.create({
+//   baseURL,
+// });
+
+// export default api;
